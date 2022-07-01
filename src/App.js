@@ -2,24 +2,21 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and sav to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  // kelvin is equal to 293
+  const kelvin = 293;
+  // kelvin minus 273 equals celsius
+  const celsius = kelvin - 273;
+  //celsius * 9/5 + 32 equals fahrenheit
+  let fahrenheit = celsius * (9 / 5) + 32;
+  fahrenheit = Math.floor(fahrenheit)
 }
+
+// kelvin is equal to 293
+const kelvin = 293;
+// kelvin minus 273 equals celsius
+const celsius = kelvin - 273;
+//celsius * 9/5 + 32 equals fahrenheit
+let fahrenheit = celsius * (9 / 5) + 32;
+fahrenheit = Math.floor(fahrenheit)
 
 export default App;
