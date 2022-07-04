@@ -21,6 +21,6 @@ const pokemon = 'Sandshrew';
 const pokeball = 'Masterball'
 
 let myPokemonWorld = () => {
-    return 'the trainer is ' + trainer + 'his pokemon is ' + pokemon + 'and he used a ' + pokeball + 'to catch him';
+    return 'The trainer is ' + trainer + ' his pokemon is ' + pokemon + ' and he used a ' + pokeball + ' to catch him';
 }
 console.log(myPokemonWorld())
