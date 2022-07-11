@@ -32,6 +32,6 @@ let alienShip = {
   }
 }
 
-alienShip.retreat(); //gkhl
+alienShip.retreat(); //gkhltvybukni
 
 alienShip.takeOff();
