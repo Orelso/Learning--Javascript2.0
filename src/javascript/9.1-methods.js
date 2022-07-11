@@ -32,6 +32,6 @@ let alienShip = {
   }
 }
 
-alienShip.retreat(); //???????
+alienShip.retreat(); //??
 
 alienShip.takeOff();
